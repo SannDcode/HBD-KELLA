@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+    padding: 4rem;
+}
+
+nav {
+    background-color: antiquewhite;
+    margin-top: 1rem;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+}
+
+.usap {
+    display: none; /* Menyembunyikan teks */
+    transform: translateX(0); /* Menyembunyikan teks ke kiri */
+    transition: all 0.4s ease; /* Efek transisi untuk animasi */
+}
+
+li:hover + .usap {
+    display: inline-block; /* Menampilkan teks */
+    transform: translateX(100%);
+    transition: all 0.4s ease; /* Efek transisi untuk animasi */
+}
+
+nav ul {
+    display: block;
+    text-align: center;
+}
+
+.padding-icon {
+    padding: 0 15px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 5px;
+}
+
+nav ul li:hover {
+    background-color: bisque;
+    color: cadetblue;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-family: Arial, sans-serif;
+        background-image: url('/assets/img/bg.png');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    nav {
+        background-color: antiquewhite;
+        margin-top: 1rem;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50px;
+    }
+}
