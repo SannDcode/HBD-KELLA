@@ -60,7 +60,7 @@ a {
 @media screen and (max-width: 768px) {
     body {
         font-family: Arial, sans-serif;
-        background-image: url('assets/img/bg.png');
+        background-image: url('https://sanndcode.github.io/assets/img/bg.png');
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
