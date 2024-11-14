@@ -74,4 +74,33 @@ a {
         margin-right: auto;
         border-radius: 50px;
     }
+    
+    .avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        object-fit: cover;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center; /* Posisikan semua elemen di tengah */
+        padding-left: auto;
+        padding-right: auto;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .iconcenter {
+        width: 50px;
+    }
 }
